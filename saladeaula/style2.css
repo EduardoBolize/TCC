@@ -1,0 +1,132 @@
+/*CSS DAS PÁGINAS*/
+
+
+/*form button{
+    background-color: #871B61 !important;
+}*/
+form a {
+    background-color: #222 !important;
+}
+/* Propriedade do Input */
+/* label color */
+
+/* label focus color */
+.input-field input[type=text]:focus + label {
+    color: grey !important;
+}
+/* label underline focus color */
+.input-field input[type=text]:focus {
+    border-bottom: 1px solid #871B61 !important;
+    box-shadow: 0 1px 0 0 #871B61 !important;
+}
+/* valid color */
+.input-field input[type=text].valid {
+    border-bottom: 1px solid #000;
+    box-shadow: 0 1px 0 0 #000;
+}
+
+.input-field label.active{
+    color: #871B61 !important;
+}
+
+.login .input-field input{
+    color:white;
+}
+.input-field input{
+    color:black !important ;
+}
+/* invalid color */
+.input-field input[type=text].invalid {
+    border-bottom: 1px solid #000;
+    box-shadow: 0 1px 0 0 #000;
+}
+/* icon prefix focus color */
+.input-field .prefix {
+    color: black;
+}
+.input-field .prefix.active {
+    color: #871B61;
+}
+
+/**/
+.corpo_box form .btn{
+    background-color: #871B61 !important;
+}
+.topo_box img{
+    cursor: pointer;
+}
+ form .input-field .btn{
+    background-color: #871B61 !important;
+}
+.item_box td, th{
+    color:black;
+}
+
+
+
+
+
+html{
+    /*background-color: #771668 !important;*/
+    background-image: url(/images/teste.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat:  no-repeat;
+    background-attachment: fixed;
+}
+p{  
+    text-indent: 1em;
+}
+.header{
+    margin-bottom: 40px;
+}
+@media (max-width: 660px){
+    .item_box h4{
+        font-size:2rem;
+    }
+    .item_box h3{
+        font-size:2.20rem;
+    }
+
+}
+.body{
+    margin-top:20px;
+    padding-top:40px !important;
+    padding-bottom:20px !important;
+    border-radius:10px;
+    background-color: rgba(20, 20, 20, 0.5) !important;
+}
+.content_topo {
+    background-color: rgba(20, 20, 20, 0) !important;
+}
+.logo h4{
+    color:white;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+}
+.item_box div{
+    color:white;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);   
+}
+.item_top{
+    background-color: #771668 !important;
+    border-radius:10px 10px 0px 0px;
+}
+.item_bot{
+    background-color: #fff !important;
+    border-radius:0px 0px 10px 10px;
+    margin-bottom: 20px;
+    color:#333 !important;
+}
+.item_box td, th{
+    color:black;
+}
+.modal:focus{
+    outline: none;
+}
+.item_bot table tr{
+    border-color:grey;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.3) !important;
+}
+.item_bot table tbody, .item_bot table thead{
+    color:black;
+}

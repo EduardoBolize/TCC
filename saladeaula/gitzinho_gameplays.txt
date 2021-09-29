@@ -1,0 +1,43 @@
+Faça primeiro a configuração de seu git, indicando o seu nome e email do GITHUB
+
+	git config --global user.name "John Doe"
+	git config --global user.email johndoe@example.com
+
+Caso você não tenha iniciado o git em uma pasta, entre nela (com o GIT BASH) e digite o seguinte comando:
+
+	git init
+
+Então seu reposotório estará iniciado.
+Para pegar o código que está no repositório remoto (GITHUB), faremos o seguinte prossedimento:
+Entramos no respositório do projeto e procuramos o botão "Clone or download" e copiamos o link disponibilizado. Ele será utilizado no seguinte comando:
+
+	git remote add origin https://github.com/diogenesleandro/Andorinha_Ballet.git
+
+Isso define o local de onde você quer pegar o código.
+Para iniciarmos o download do projeto utilizamos:
+
+	git pull origin master
+
+E assim ele fará o dowload do projeto. Toda vez que você desejar atualizar a pasta de seu projeto, execute o comando acima.
+Quando efetuamos atualizações no git, é necessário indicar quais alterações desejamos enviar, para tal, utilizamos o:
+	
+	git status
+
+Esse comando verifica quais são os arquivos alterados e eles são exibidos em vermelho, e os arquivos que já estão prontos pra ser adicionados em verde
+Para adicionar os arquivos utilizamos o seguinte comando:
+
+	git add "nomedoarquivo.extensão" (vai adicionando os arquivos um a um)
+
+	ou 
+
+	git add * (adiciona todos os arquivos de uma vez)
+
+Assim, ao adicionar os arquivos precisamos fazer um "commit", que é juntar as mudanças que se deseja enviar em um pacote e dar um nome pra ela, assim fazemos o seguinte:
+	
+	git commit -m "Mensagem breve explicando as alterações do projeto"
+
+Após todo esse processo, enviamos para o repositório remoto nossas alterações
+
+	git push origin master
+
+Caso ele indique erro, falando que existem alterações que não estão no seu projeto, execute o comando de atualização (git pull origin master) e depois efetue o comando acima mais uma vez.

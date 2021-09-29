@@ -1,0 +1,29 @@
+{
+  "name": "EBA - Andorinha",
+  "short_name": "Ballet Andorinha",
+  "icons": [{
+    "src": "saladeaula/images/andorinha2.fw.PNG",
+      "sizes": "128x128",
+      "type": "image/png"
+    }, {
+      "src": "saladeaula/images/andorinha2.fw.PNG",
+      "sizes": "144x144",
+      "type": "image/png"
+    }, {
+      "src": "saladeaula/images/andorinha2.fw.PNG",
+      "sizes": "152x152",
+      "type": "image/png"
+    }, {
+      "src": "saladeaula/images/andorinha2.fw.PNG",
+      "sizes": "192x192",
+      "type": "image/png"
+    }, {
+      "src": "saladeaula/images/andorinha2.fw.PNG",
+      "sizes": "256x256",
+      "type": "image/png"
+    }],
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#871B61",
+  "theme_color": "#611346"
+}
